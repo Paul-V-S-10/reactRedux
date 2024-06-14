@@ -1,0 +1,135 @@
+.sideBar {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    height: 87vh;
+    justify-content: space-evenly;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+
+    .part1 {
+        /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+        border-radius: 10px;
+        background-color: #fff;
+        padding: 10px;
+    }
+    .part1:hover{
+        background-color: rgb(214,205,233);
+    }
+
+    .part2 {
+        border-radius: 10px;
+        padding: 5px;
+        background-color: #fff;
+        /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .items {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-radius: 10px;
+            padding: 5px;
+            img {
+                height: 50px;
+                object-fit: cover;
+            }
+        }
+        .items:hover{
+            background-color: rgb(214,205,233);
+        }
+    }
+    .part3{
+        border-radius: 10px;
+        background-color: #fff;
+        padding: 10px;
+
+    }
+    .part3:hover{
+        background-color: rgb(214,205,233);
+    }
+}
+
+
+
+
+
+
+
+
+.sideBarD {
+    /* background-color: rgb(40,36,61); */
+    background-color: rgb(5,10,29);
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    height: 87vh;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+    .part1 {
+        /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+        border-radius: 10px;
+        /* background-color: rgb(214,205,233); */
+        background-color: rgb(5,10,29);
+        color: rgb(214,205,233);
+        padding: 10px;
+    }
+    .part1:hover{
+        background-color: rgb(214,205,233);
+        color: black;
+    }
+
+    .part2 {
+        border-radius: 10px;
+        padding: 5px;
+        /* background-color: rgb(214,205,233); */
+        background-color: rgb(5,10,29);
+        /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+        .items {
+            color: rgb(214,205,233);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-radius: 10px;
+            padding: 5px;
+            img {
+                height: 50px;
+                object-fit: cover;
+            }
+        }
+        .items:hover{
+            background-color: rgb(214,205,233);
+            color: black;
+        }
+    }
+    .part3{
+        border-radius: 10px;
+        /* background-color: rgb(214,205,233); */
+        background-color: rgb(5,10,29);
+        padding: 10px;
+        color: rgb(214,205,233);
+
+    }
+    .part3:hover{
+        background-color: rgb(214,205,233);
+        color: black;
+    }
+}
+
+
+
+
+
+
+
+
